@@ -1,0 +1,14 @@
+# SCM Address Object creation Configuration File
+# Copy this file to config.yaml and replace the values below with your actual SCM configuration
+# Authentication Configuration
+# Option 1: Use OAuth credentials (recommended - auto-generates and refreshes token)
+auth:
+  client_id: "your-service-account@your-tsg-id.iam.panserviceaccount.com"
+  client_secret: "your-client-secret-here"
+  token_url: "https://auth.apps.paloaltonetworks.com/auth/v1/oauth2/access_token"
+  scope: "tsg_id:your-tsg-id"
+
+# Option 2: Use static token (will auto-refresh on 401 error if auth credentials provided)
+# token: "your-static-token-here"
+
+objects_file: "devices.yaml"
