@@ -64,13 +64,13 @@ Example `devices.yaml`:
 
 ```yaml
 objects:
-  - name: Internal_DW-Meter_1
-    folder: Azure-WEU
-    ip_netmask: 10.191.24.181/32
+  - name: Internal_1
+    folder: Azure-SEE
+    ip_netmask: 10.10.10.1/32
 
-  - name: Internal_DW-Meter_2
-    folder: Azure-WEU
-    ip_netmask: 10.191.24.182/32
+  - name: Internal_2
+    folder: Azure-SEE
+    ip_netmask: 10.10.10.2/32
 ```
 
 ## Usage
